@@ -1,8 +1,8 @@
 import React from 'react';
-import "../FirstSection/FirstSection.css"
+import "../Home/Home.css"
 import girl from '../image/girl.png'
 
-const FirstSection = () => {
+const Home = () => {
     return ( 
         <div className='section'>
             <div className='girlImage'>
@@ -19,4 +19,4 @@ const FirstSection = () => {
      );
 }
  
-export default FirstSection;
+export default Home;
