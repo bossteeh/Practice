@@ -1,12 +1,16 @@
 import React from 'react';
-import FirstSection from './components/FirstSection/FirstSection';
+// import Discover from './components/Discover/Discover';
+// import FirstSection from './components/FirstSection/FirstSection';
 import Header from './components/Header/Header';
+import Join from './components/Join/Join'
 
 function App() {
   return (
     <div>
       <Header />
-      <FirstSection />
+      {/* <FirstSection /> */}
+      {/* <Discover /> */}
+      <Join />
     </div>
   );
 }

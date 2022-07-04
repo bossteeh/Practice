@@ -1,0 +1,39 @@
+.section {
+    background-color: #2F303A;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0px 200px;
+  padding-top: 100px;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.cover img {
+  width: 500px;
+  padding: 110px 0px;
+}
+.highlight{
+    display: block;
+    color: white;
+}
+
+.highlight h2{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.highlight p{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.highlight .imgs{
+    width: 50px;
+    display:flex;
+    padding-bottom: 30px;
+    }
+.highlight .imgs img{
+width: 200px;
+}

@@ -4,7 +4,7 @@ import girl from '../image/girl.png'
 
 const FirstSection = () => {
     return ( 
-        <div className='sectionone'>
+        <div className='section'>
             <div className='girlImage'>
             <img src={girl} alt="" />
             </div>
