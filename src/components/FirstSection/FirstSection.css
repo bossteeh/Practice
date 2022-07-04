@@ -25,9 +25,11 @@
     font-size: 20px;
     padding: 20px 0px;
 }
-button {
-    background-color: #1762A7;
+.btn{
+    background-color: #4062A7;
     border: 0px;
     padding: 15px 50px;
+    width: 200px;
     color: white;
 }
+

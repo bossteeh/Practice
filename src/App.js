@@ -1,17 +1,18 @@
 import React from 'react';
-// import Discover from './components/Discover/Discover';
-// import FirstSection from './components/FirstSection/FirstSection';
 import Header from './components/Header/Header';
-import Join from './components/Join/Join'
+import FirstSection from './components/FirstSection/FirstSection';
+// import Discover from './components/Discover/Discover';
+// import Join from './components/Join/Join'
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-      {/* <FirstSection /> */}
+      <FirstSection />
       {/* <Discover /> */}
-      <Join />
-    </div>
+      {/* <Join /> */}
+    </BrowserRouter>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Header/Header.css';
 import logo from '.././image/logo.svg';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -12,7 +12,8 @@ const Header = () => {
       </div>
       <div className='discover'>
         <p>Discover</p>
-        <p>Join</p>
+        <p> Join </p>
+
       </div>
     </nav>
   );

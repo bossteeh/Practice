@@ -11,7 +11,7 @@ const FirstSection = () => {
             <div className='text'>
                 <h2>Feel the Music</h2>
                 <p>Stream over 20 thousand songs with one click</p>
-                <button>JOIN NOW</button>
+                <button className='btn'>JOIN NOW</button>
 
             </div>
 
