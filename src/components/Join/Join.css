@@ -6,26 +6,49 @@
     align-items: center;
     padding: 0px 200px;
     padding-top: 100px;
+    padding-right: 150px;
     justify-content: space-between;
     min-height: 660px;
   }
 .fun{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 800;
     color: white;
 }
 .fun span{
     color: #BC3A80;
-    font-size: 80px;
+    font-size: 70px;
 }
 
   .myForm{
       background-color: #202027;
       color: white;
       padding: 50px 50px;
+      border-radius: 10px;
+      width: 500px;
+      height: 400px;
+
   }
 
   .myForm form{
-      line-height: 30px;
+      line-height: 50px;
   }
+  .myForm form input{
+    width: 500px;
+    height: 30px;
+    border: 1px solid #1762A7;
+    border-radius: 5px;
+    background-color: transparent;
+}
+  
+button{
+    background-color: #1762A7;
+    color: white;
+    border: none;
+    width: 505px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
   

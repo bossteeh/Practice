@@ -5,17 +5,18 @@ const Join = () => {
     return ( 
         <div className='section'>
             <div className='fun'>
-                JOIN THE <span>FUN</span> 
+                JOIN THE <span>FUN.</span> 
             </div>
             <div className='myForm'>
                 <form action="">
-                    <label htmlFor="name">Name</label> <br />
+                    <label htmlFor="name">Name:</label> <br />
                     <input type="text" /> <br />
-                    <label htmlFor="email">Email</label> <br />
+                    <label htmlFor="email">Email:</label> <br />
                     <input type="text" /> <br />
 
-                    <label htmlFor="password">Password</label> <br />
-                    <input type="text" />
+                    <label htmlFor="password">Password:</label> <br />
+                    <input type="text" /> <br /> <br />
+                    <button>JOIN NOW</button>
                 </form>
             </div>
 
